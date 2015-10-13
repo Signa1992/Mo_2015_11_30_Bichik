@@ -1,0 +1,118 @@
+\hypertarget{class_vuforia_1_1_i_o_s_unity_player}{}\section{Vuforia.\+I\+O\+S\+Unity\+Player Class Reference}
+\label{class_vuforia_1_1_i_o_s_unity_player}\index{Vuforia.\+I\+O\+S\+Unity\+Player@{Vuforia.\+I\+O\+S\+Unity\+Player}}
+
+
+This class encapsulates functionality to detect various surface events (size, orientation changed) and delegate this to native. These are used by Unity Extension code and should usually not be called by app code.  
+
+
+Inheritance diagram for Vuforia.\+I\+O\+S\+Unity\+Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_vuforia_1_1_i_o_s_unity_player}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_vuforia_1_1_i_o_s_unity_player_a600d381149863d17d61979ac24053917_a600d381149863d17d61979ac24053917}{Load\+Native\+Libraries} ()
+\begin{DoxyCompactList}\small\item\em Loads native plugin libraries on platforms where this is explicitly required. \end{DoxyCompactList}\item 
+void \hyperlink{class_vuforia_1_1_i_o_s_unity_player_a084e86df1747abb133cb0cd05dfd2260_a084e86df1747abb133cb0cd05dfd2260}{Initialize\+Platform} ()
+\begin{DoxyCompactList}\small\item\em Initialized platform specific settings \end{DoxyCompactList}\item 
+Vuforia\+Unity.\+Init\+Error \hyperlink{class_vuforia_1_1_i_o_s_unity_player_a6b09cc2acb4a92b36cdfa6553af88877_a6b09cc2acb4a92b36cdfa6553af88877}{Start} (string license\+Key)
+\begin{DoxyCompactList}\small\item\em Initializes \hyperlink{namespace_vuforia}{Vuforia}; called from Start \end{DoxyCompactList}\item 
+void \hyperlink{class_vuforia_1_1_i_o_s_unity_player_a60426bb102046a4aa2926fcd7d7f601f_a60426bb102046a4aa2926fcd7d7f601f}{Update} ()
+\begin{DoxyCompactList}\small\item\em Called from Update, checks for various life cycle events that need to be forwarded to \hyperlink{namespace_vuforia}{Vuforia}, e.\+g. orientation changes \end{DoxyCompactList}\item 
+\hypertarget{class_vuforia_1_1_i_o_s_unity_player_af83d5773fe8895dcab7fa4f8b2103c01}{}void {\bfseries Dispose} ()\label{class_vuforia_1_1_i_o_s_unity_player_af83d5773fe8895dcab7fa4f8b2103c01}
+
+\item 
+void \hyperlink{class_vuforia_1_1_i_o_s_unity_player_a6f8f45eb79dee572013f7c3a49f5c510_a6f8f45eb79dee572013f7c3a49f5c510}{On\+Pause} ()
+\begin{DoxyCompactList}\small\item\em Pauses \hyperlink{namespace_vuforia}{Vuforia} \end{DoxyCompactList}\item 
+void \hyperlink{class_vuforia_1_1_i_o_s_unity_player_a134a3e6935e7f1097e01ab411cbf5e27_a134a3e6935e7f1097e01ab411cbf5e27}{On\+Resume} ()
+\begin{DoxyCompactList}\small\item\em Resumes \hyperlink{namespace_vuforia}{Vuforia} \end{DoxyCompactList}\item 
+void \hyperlink{class_vuforia_1_1_i_o_s_unity_player_aad846059a917080e576b84aeea483083_aad846059a917080e576b84aeea483083}{On\+Destroy} ()
+\begin{DoxyCompactList}\small\item\em Deinitializes \hyperlink{namespace_vuforia}{Vuforia} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class encapsulates functionality to detect various surface events (size, orientation changed) and delegate this to native. These are used by Unity Extension code and should usually not be called by app code. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_vuforia_1_1_i_o_s_unity_player_a084e86df1747abb133cb0cd05dfd2260_a084e86df1747abb133cb0cd05dfd2260}{}\index{Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}!Initialize\+Platform@{Initialize\+Platform}}
+\index{Initialize\+Platform@{Initialize\+Platform}!Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}}
+\subsubsection[{Initialize\+Platform()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+I\+O\+S\+Unity\+Player.\+Initialize\+Platform (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_i_o_s_unity_player_a084e86df1747abb133cb0cd05dfd2260_a084e86df1747abb133cb0cd05dfd2260}
+
+
+Initialized platform specific settings 
+
+\hypertarget{class_vuforia_1_1_i_o_s_unity_player_a600d381149863d17d61979ac24053917_a600d381149863d17d61979ac24053917}{}\index{Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}!Load\+Native\+Libraries@{Load\+Native\+Libraries}}
+\index{Load\+Native\+Libraries@{Load\+Native\+Libraries}!Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}}
+\subsubsection[{Load\+Native\+Libraries()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+I\+O\+S\+Unity\+Player.\+Load\+Native\+Libraries (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_i_o_s_unity_player_a600d381149863d17d61979ac24053917_a600d381149863d17d61979ac24053917}
+
+
+Loads native plugin libraries on platforms where this is explicitly required. 
+
+\hypertarget{class_vuforia_1_1_i_o_s_unity_player_aad846059a917080e576b84aeea483083_aad846059a917080e576b84aeea483083}{}\index{Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}!On\+Destroy@{On\+Destroy}}
+\index{On\+Destroy@{On\+Destroy}!Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}}
+\subsubsection[{On\+Destroy()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+I\+O\+S\+Unity\+Player.\+On\+Destroy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_i_o_s_unity_player_aad846059a917080e576b84aeea483083_aad846059a917080e576b84aeea483083}
+
+
+Deinitializes \hyperlink{namespace_vuforia}{Vuforia} 
+
+\hypertarget{class_vuforia_1_1_i_o_s_unity_player_a6f8f45eb79dee572013f7c3a49f5c510_a6f8f45eb79dee572013f7c3a49f5c510}{}\index{Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}!On\+Pause@{On\+Pause}}
+\index{On\+Pause@{On\+Pause}!Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}}
+\subsubsection[{On\+Pause()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+I\+O\+S\+Unity\+Player.\+On\+Pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_i_o_s_unity_player_a6f8f45eb79dee572013f7c3a49f5c510_a6f8f45eb79dee572013f7c3a49f5c510}
+
+
+Pauses \hyperlink{namespace_vuforia}{Vuforia} 
+
+\hypertarget{class_vuforia_1_1_i_o_s_unity_player_a134a3e6935e7f1097e01ab411cbf5e27_a134a3e6935e7f1097e01ab411cbf5e27}{}\index{Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}!On\+Resume@{On\+Resume}}
+\index{On\+Resume@{On\+Resume}!Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}}
+\subsubsection[{On\+Resume()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+I\+O\+S\+Unity\+Player.\+On\+Resume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_i_o_s_unity_player_a134a3e6935e7f1097e01ab411cbf5e27_a134a3e6935e7f1097e01ab411cbf5e27}
+
+
+Resumes \hyperlink{namespace_vuforia}{Vuforia} 
+
+\hypertarget{class_vuforia_1_1_i_o_s_unity_player_a6b09cc2acb4a92b36cdfa6553af88877_a6b09cc2acb4a92b36cdfa6553af88877}{}\index{Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}!Start@{Start}}
+\index{Start@{Start}!Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}}
+\subsubsection[{Start(string license\+Key)}]{\setlength{\rightskip}{0pt plus 5cm}Vuforia\+Unity.\+Init\+Error Vuforia.\+I\+O\+S\+Unity\+Player.\+Start (
+\begin{DoxyParamCaption}
+\item[{string}]{license\+Key}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_i_o_s_unity_player_a6b09cc2acb4a92b36cdfa6553af88877_a6b09cc2acb4a92b36cdfa6553af88877}
+
+
+Initializes \hyperlink{namespace_vuforia}{Vuforia}; called from Start 
+
+\hypertarget{class_vuforia_1_1_i_o_s_unity_player_a60426bb102046a4aa2926fcd7d7f601f_a60426bb102046a4aa2926fcd7d7f601f}{}\index{Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}!Update@{Update}}
+\index{Update@{Update}!Vuforia\+::\+I\+O\+S\+Unity\+Player@{Vuforia\+::\+I\+O\+S\+Unity\+Player}}
+\subsubsection[{Update()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+I\+O\+S\+Unity\+Player.\+Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_i_o_s_unity_player_a60426bb102046a4aa2926fcd7d7f601f_a60426bb102046a4aa2926fcd7d7f601f}
+
+
+Called from Update, checks for various life cycle events that need to be forwarded to \hyperlink{namespace_vuforia}{Vuforia}, e.\+g. orientation changes 
+

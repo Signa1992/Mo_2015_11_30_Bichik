@@ -1,0 +1,118 @@
+\hypertarget{class_vuforia_1_1_android_unity_player}{}\section{Vuforia.\+Android\+Unity\+Player Class Reference}
+\label{class_vuforia_1_1_android_unity_player}\index{Vuforia.\+Android\+Unity\+Player@{Vuforia.\+Android\+Unity\+Player}}
+
+
+This class encapsulates functionality to detect various surface events (size, orientation changed) and delegate this to native. These are used by Unity Extension code and should usually not be called by app code.  
+
+
+Inheritance diagram for Vuforia.\+Android\+Unity\+Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_vuforia_1_1_android_unity_player}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_vuforia_1_1_android_unity_player_a9bf241f8dea29011eb506948e01642df_a9bf241f8dea29011eb506948e01642df}{Load\+Native\+Libraries} ()
+\begin{DoxyCompactList}\small\item\em Loads native plugin libraries on platforms where this is explicitly required. \end{DoxyCompactList}\item 
+void \hyperlink{class_vuforia_1_1_android_unity_player_aa53b76bee50aa20b2359fbf91f46ed84_aa53b76bee50aa20b2359fbf91f46ed84}{Initialize\+Platform} ()
+\begin{DoxyCompactList}\small\item\em Initialized platform specific settings \end{DoxyCompactList}\item 
+Vuforia\+Unity.\+Init\+Error \hyperlink{class_vuforia_1_1_android_unity_player_adf4dc708bc16b9d805caa998f6dea721_adf4dc708bc16b9d805caa998f6dea721}{Start} (string license\+Key)
+\begin{DoxyCompactList}\small\item\em Initializes \hyperlink{namespace_vuforia}{Vuforia}; called from Start \end{DoxyCompactList}\item 
+void \hyperlink{class_vuforia_1_1_android_unity_player_a4b854774c0f3b218ce90e537c0c88391_a4b854774c0f3b218ce90e537c0c88391}{Update} ()
+\begin{DoxyCompactList}\small\item\em Called from Update, checks for various life cycle events that need to be forwarded to \hyperlink{namespace_vuforia}{Vuforia}, e.\+g. orientation changes \end{DoxyCompactList}\item 
+void \hyperlink{class_vuforia_1_1_android_unity_player_a8a1fc8237562c30164d76062ba1d5c8c_a8a1fc8237562c30164d76062ba1d5c8c}{On\+Pause} ()
+\begin{DoxyCompactList}\small\item\em Pauses \hyperlink{namespace_vuforia}{Vuforia} \end{DoxyCompactList}\item 
+void \hyperlink{class_vuforia_1_1_android_unity_player_a7d7049ac5e3deb01f9bc3cd912614355_a7d7049ac5e3deb01f9bc3cd912614355}{On\+Resume} ()
+\begin{DoxyCompactList}\small\item\em Resumes \hyperlink{namespace_vuforia}{Vuforia} \end{DoxyCompactList}\item 
+void \hyperlink{class_vuforia_1_1_android_unity_player_a335cbf20b4e4fb792bb1684c43779912_a335cbf20b4e4fb792bb1684c43779912}{On\+Destroy} ()
+\begin{DoxyCompactList}\small\item\em Deinitializes \hyperlink{namespace_vuforia}{Vuforia} \end{DoxyCompactList}\item 
+\hypertarget{class_vuforia_1_1_android_unity_player_ad56bc50bf5c15639b028f127ef9f3bea}{}void {\bfseries Dispose} ()\label{class_vuforia_1_1_android_unity_player_ad56bc50bf5c15639b028f127ef9f3bea}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class encapsulates functionality to detect various surface events (size, orientation changed) and delegate this to native. These are used by Unity Extension code and should usually not be called by app code. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_vuforia_1_1_android_unity_player_aa53b76bee50aa20b2359fbf91f46ed84_aa53b76bee50aa20b2359fbf91f46ed84}{}\index{Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}!Initialize\+Platform@{Initialize\+Platform}}
+\index{Initialize\+Platform@{Initialize\+Platform}!Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}}
+\subsubsection[{Initialize\+Platform()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+Android\+Unity\+Player.\+Initialize\+Platform (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_android_unity_player_aa53b76bee50aa20b2359fbf91f46ed84_aa53b76bee50aa20b2359fbf91f46ed84}
+
+
+Initialized platform specific settings 
+
+\hypertarget{class_vuforia_1_1_android_unity_player_a9bf241f8dea29011eb506948e01642df_a9bf241f8dea29011eb506948e01642df}{}\index{Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}!Load\+Native\+Libraries@{Load\+Native\+Libraries}}
+\index{Load\+Native\+Libraries@{Load\+Native\+Libraries}!Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}}
+\subsubsection[{Load\+Native\+Libraries()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+Android\+Unity\+Player.\+Load\+Native\+Libraries (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_android_unity_player_a9bf241f8dea29011eb506948e01642df_a9bf241f8dea29011eb506948e01642df}
+
+
+Loads native plugin libraries on platforms where this is explicitly required. 
+
+\hypertarget{class_vuforia_1_1_android_unity_player_a335cbf20b4e4fb792bb1684c43779912_a335cbf20b4e4fb792bb1684c43779912}{}\index{Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}!On\+Destroy@{On\+Destroy}}
+\index{On\+Destroy@{On\+Destroy}!Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}}
+\subsubsection[{On\+Destroy()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+Android\+Unity\+Player.\+On\+Destroy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_android_unity_player_a335cbf20b4e4fb792bb1684c43779912_a335cbf20b4e4fb792bb1684c43779912}
+
+
+Deinitializes \hyperlink{namespace_vuforia}{Vuforia} 
+
+\hypertarget{class_vuforia_1_1_android_unity_player_a8a1fc8237562c30164d76062ba1d5c8c_a8a1fc8237562c30164d76062ba1d5c8c}{}\index{Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}!On\+Pause@{On\+Pause}}
+\index{On\+Pause@{On\+Pause}!Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}}
+\subsubsection[{On\+Pause()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+Android\+Unity\+Player.\+On\+Pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_android_unity_player_a8a1fc8237562c30164d76062ba1d5c8c_a8a1fc8237562c30164d76062ba1d5c8c}
+
+
+Pauses \hyperlink{namespace_vuforia}{Vuforia} 
+
+\hypertarget{class_vuforia_1_1_android_unity_player_a7d7049ac5e3deb01f9bc3cd912614355_a7d7049ac5e3deb01f9bc3cd912614355}{}\index{Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}!On\+Resume@{On\+Resume}}
+\index{On\+Resume@{On\+Resume}!Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}}
+\subsubsection[{On\+Resume()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+Android\+Unity\+Player.\+On\+Resume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_android_unity_player_a7d7049ac5e3deb01f9bc3cd912614355_a7d7049ac5e3deb01f9bc3cd912614355}
+
+
+Resumes \hyperlink{namespace_vuforia}{Vuforia} 
+
+\hypertarget{class_vuforia_1_1_android_unity_player_adf4dc708bc16b9d805caa998f6dea721_adf4dc708bc16b9d805caa998f6dea721}{}\index{Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}!Start@{Start}}
+\index{Start@{Start}!Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}}
+\subsubsection[{Start(string license\+Key)}]{\setlength{\rightskip}{0pt plus 5cm}Vuforia\+Unity.\+Init\+Error Vuforia.\+Android\+Unity\+Player.\+Start (
+\begin{DoxyParamCaption}
+\item[{string}]{license\+Key}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_android_unity_player_adf4dc708bc16b9d805caa998f6dea721_adf4dc708bc16b9d805caa998f6dea721}
+
+
+Initializes \hyperlink{namespace_vuforia}{Vuforia}; called from Start 
+
+\hypertarget{class_vuforia_1_1_android_unity_player_a4b854774c0f3b218ce90e537c0c88391_a4b854774c0f3b218ce90e537c0c88391}{}\index{Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}!Update@{Update}}
+\index{Update@{Update}!Vuforia\+::\+Android\+Unity\+Player@{Vuforia\+::\+Android\+Unity\+Player}}
+\subsubsection[{Update()}]{\setlength{\rightskip}{0pt plus 5cm}void Vuforia.\+Android\+Unity\+Player.\+Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_vuforia_1_1_android_unity_player_a4b854774c0f3b218ce90e537c0c88391_a4b854774c0f3b218ce90e537c0c88391}
+
+
+Called from Update, checks for various life cycle events that need to be forwarded to \hyperlink{namespace_vuforia}{Vuforia}, e.\+g. orientation changes 
+
