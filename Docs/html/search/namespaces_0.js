@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['editorclasses',['EditorClasses',['../namespace_vuforia_1_1_editor_classes.html',1,'Vuforia']]],
-  ['vuforia',['Vuforia',['../namespace_vuforia.html',1,'']]]
+  ['mo_5f2015_5f11_5f30_5fbichik',['Mo_2015_11_30_Bichik',['../namespace_mo__2015__11__30___bichik.html',1,'']]]
 ];
