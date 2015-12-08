@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 7e321ec1ac587f84a94e31f5380aebf1
+timeCreated: 1448241599
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: center
+    100002: Circle001
+    100004: hvos2
+    100006: hvost-nub
+    100008: hvost1
+    100010: hvost3
+    100012: hvost4
+    100014: hvost5
+    100016: IK Chain001
+    100018: IK Chain002
+    100020: //RootNode
+    100022: Line001
+    100024: pered_golova_bone
+    100026: pered_rot-nub_bone
+    100028: pered_rot_bone
+    100030: pered_sheya1_bone
+    100032: pered_sheya2_bone
+    100034: pered_sheya3_bone
+    100036: pered_tul1_bone
+    100038: pered_tul2_bone
+    100040: plecho1_l_bone
+    100042: plecho1_r_bone
+    100044: plecho2_l_bone
+    100046: plecho2_r_bone
+    100048: ruka_l_bone
+    100050: ruka_l_nub
+    100052: ruka_r
+    100054: ruka_r_bone
+    100056: ruka_r_nub
+    100058: tul3
+    100060: tul4
+    100062: zad_l_nub
+    100064: zad_plecho1_l
+    100066: zad_plecho1_r
+    100068: zad_plecho2_l
+    100070: zad_plecho2_r
+    100072: zad_r_nub
+    100074: zad_ruka_l
+    400000: center
+    400002: Circle001
+    400004: hvos2
+    400006: hvost-nub
+    400008: hvost1
+    400010: hvost3
+    400012: hvost4
+    400014: hvost5
+    400016: IK Chain001
+    400018: IK Chain002
+    400020: //RootNode
+    400022: Line001
+    400024: pered_golova_bone
+    400026: pered_rot-nub_bone
+    400028: pered_rot_bone
+    400030: pered_sheya1_bone
+    400032: pered_sheya2_bone
+    400034: pered_sheya3_bone
+    400036: pered_tul1_bone
+    400038: pered_tul2_bone
+    400040: plecho1_l_bone
+    400042: plecho1_r_bone
+    400044: plecho2_l_bone
+    400046: plecho2_r_bone
+    400048: ruka_l_bone
+    400050: ruka_l_nub
+    400052: ruka_r
+    400054: ruka_r_bone
+    400056: ruka_r_nub
+    400058: tul3
+    400060: tul4
+    400062: zad_l_nub
+    400064: zad_plecho1_l
+    400066: zad_plecho1_r
+    400068: zad_plecho2_l
+    400070: zad_plecho2_r
+    400072: zad_r_nub
+    400074: zad_ruka_l
+    4300000: Line001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Line001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: center
+        weight: 1
+      - path: center/pered_tul2_bone
+        weight: 1
+      - path: center/pered_tul2_bone/pered_tul1_bone
+        weight: 1
+      - path: center/pered_tul2_bone/pered_tul1_bone/pered_sheya3_bone
+        weight: 1
+      - path: center/pered_tul2_bone/pered_tul1_bone/pered_sheya3_bone/pered_sheya2_bone
+        weight: 1
+      - path: center/pered_tul2_bone/pered_tul1_bone/pered_sheya3_bone/pered_sheya2_bone/pered_sheya1_bone
+        weight: 1
+      - path: center/pered_tul2_bone/pered_tul1_bone/pered_sheya3_bone/pered_sheya2_bone/pered_sheya1_bone/pered_golova_bone
+        weight: 1
+      - path: center/pered_tul2_bone/pered_tul1_bone/pered_sheya3_bone/pered_sheya2_bone/pered_sheya1_bone/pered_golova_bone/pered_rot_bone
+        weight: 1
+      - path: center/pered_tul2_bone/pered_tul1_bone/pered_sheya3_bone/pered_sheya2_bone/pered_sheya1_bone/pered_golova_bone/pered_rot_bone/pered_rot-nub_bone
+        weight: 1
+      - path: center/pered_tul2_bone/plecho1_l_bone
+        weight: 1
+      - path: center/pered_tul2_bone/plecho1_l_bone/plecho2_l_bone
+        weight: 1
+      - path: center/pered_tul2_bone/plecho1_l_bone/plecho2_l_bone/ruka_l_bone
+        weight: 1
+      - path: center/pered_tul2_bone/plecho1_l_bone/plecho2_l_bone/ruka_l_bone/ruka_l_nub
+        weight: 1
+      - path: center/pered_tul2_bone/plecho1_r_bone
+        weight: 1
+      - path: center/pered_tul2_bone/plecho1_r_bone/plecho2_r_bone
+        weight: 1
+      - path: center/pered_tul2_bone/plecho1_r_bone/plecho2_r_bone/ruka_r_bone
+        weight: 1
+      - path: center/pered_tul2_bone/plecho1_r_bone/plecho2_r_bone/ruka_r_bone/ruka_r_nub
+        weight: 1
+      - path: center/tul3
+        weight: 1
+      - path: center/tul3/tul4
+        weight: 1
+      - path: center/tul3/tul4/hvost1
+        weight: 1
+      - path: center/tul3/tul4/hvost1/hvos2
+        weight: 1
+      - path: center/tul3/tul4/hvost1/hvos2/hvost3
+        weight: 1
+      - path: center/tul3/tul4/hvost1/hvos2/hvost3/hvost4
+        weight: 1
+      - path: center/tul3/tul4/hvost1/hvos2/hvost3/hvost4/hvost5
+        weight: 1
+      - path: center/tul3/tul4/hvost1/hvos2/hvost3/hvost4/hvost5/hvost-nub
+        weight: 1
+      - path: center/tul3/tul4/zad_plecho1_l
+        weight: 1
+      - path: center/tul3/tul4/zad_plecho1_l/zad_plecho2_l
+        weight: 1
+      - path: center/tul3/tul4/zad_plecho1_l/zad_plecho2_l/zad_ruka_l
+        weight: 1
+      - path: center/tul3/tul4/zad_plecho1_l/zad_plecho2_l/zad_ruka_l/zad_l_nub
+        weight: 1
+      - path: center/tul3/tul4/zad_plecho1_r
+        weight: 1
+      - path: center/tul3/tul4/zad_plecho1_r/zad_plecho2_r
+        weight: 1
+      - path: center/tul3/tul4/zad_plecho1_r/zad_plecho2_r/ruka_r
+        weight: 1
+      - path: center/tul3/tul4/zad_plecho1_r/zad_plecho2_r/ruka_r/zad_r_nub
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: Line001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

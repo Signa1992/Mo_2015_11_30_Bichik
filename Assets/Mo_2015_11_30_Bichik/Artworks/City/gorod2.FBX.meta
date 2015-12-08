@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: e6ac3e3cb73c41b4a968ab657f73aeef
+timeCreated: 1448514697
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box002
+    100004: Box003
+    100006: Box007
+    100008: Box009
+    100010: Box010
+    100012: Cylinder001
+    100014: Dom_sprava
+    100016: domsleva
+    100018: //RootNode
+    100020: Group001
+    100022: Group002
+    100024: Line001
+    100026: Object001
+    100028: Object002
+    100030: Plane004
+    100032: Sphere001
+    100034: Sphere002
+    100036: Sphere003
+    100038: Sphere004
+    100040: Sphere005
+    100042: Sphere006
+    100044: Sphere007
+    100046: Sphere045
+    100048: Sphere046
+    100050: Sphere047
+    100052: Sphere048
+    100054: Sphere049
+    100056: Sphere050
+    100058: Sphere051
+    100060: StraightStair001
+    400000: Box001
+    400002: Box002
+    400004: Box003
+    400006: Box007
+    400008: Box009
+    400010: Box010
+    400012: Cylinder001
+    400014: Dom_sprava
+    400016: domsleva
+    400018: //RootNode
+    400020: Group001
+    400022: Group002
+    400024: Line001
+    400026: Object001
+    400028: Object002
+    400030: Plane004
+    400032: Sphere001
+    400034: Sphere002
+    400036: Sphere003
+    400038: Sphere004
+    400040: Sphere005
+    400042: Sphere006
+    400044: Sphere007
+    400046: Sphere045
+    400048: Sphere046
+    400050: Sphere047
+    400052: Sphere048
+    400054: Sphere049
+    400056: Sphere050
+    400058: Sphere051
+    400060: StraightStair001
+    2300000: Box001
+    2300002: Box002
+    2300004: Box003
+    2300006: Box007
+    2300008: Box009
+    2300010: Box010
+    2300012: Cylinder001
+    2300014: Dom_sprava
+    2300016: domsleva
+    2300018: Object001
+    2300020: Object002
+    2300022: Plane004
+    2300024: Sphere001
+    2300026: Sphere002
+    2300028: Sphere003
+    2300030: Sphere004
+    2300032: Sphere005
+    2300034: Sphere006
+    2300036: Sphere007
+    2300038: Sphere045
+    2300040: Sphere046
+    2300042: Sphere047
+    2300044: Sphere048
+    2300046: Sphere049
+    2300048: Sphere050
+    2300050: Sphere051
+    2300052: StraightStair001
+    3300000: Box001
+    3300002: Box002
+    3300004: Box003
+    3300006: Box007
+    3300008: Box009
+    3300010: Box010
+    3300012: Cylinder001
+    3300014: Dom_sprava
+    3300016: domsleva
+    3300018: Object001
+    3300020: Object002
+    3300022: Plane004
+    3300024: Sphere001
+    3300026: Sphere002
+    3300028: Sphere003
+    3300030: Sphere004
+    3300032: Sphere005
+    3300034: Sphere006
+    3300036: Sphere007
+    3300038: Sphere045
+    3300040: Sphere046
+    3300042: Sphere047
+    3300044: Sphere048
+    3300046: Sphere049
+    3300048: Sphere050
+    3300050: Sphere051
+    3300052: StraightStair001
+    4300000: Box001
+    4300002: StraightStair001
+    4300004: Dom_sprava
+    4300006: domsleva
+    4300008: Box002
+    4300010: Cylinder001
+    4300012: Plane004
+    4300014: Sphere001
+    4300016: Sphere002
+    4300018: Sphere003
+    4300020: Sphere004
+    4300022: Sphere005
+    4300024: Sphere007
+    4300026: Sphere006
+    4300028: Box003
+    4300030: Sphere045
+    4300032: Sphere046
+    4300034: Sphere047
+    4300036: Sphere048
+    4300038: Sphere049
+    4300040: Sphere050
+    4300042: Sphere051
+    4300044: Box007
+    4300046: Box009
+    4300048: Object001
+    4300050: Object002
+    4300052: Box010
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Box009
+        weight: 1
+      - path: Box010
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Dom_sprava
+        weight: 1
+      - path: domsleva
+        weight: 1
+      - path: Group001
+        weight: 1
+      - path: Group001/Box003
+        weight: 1
+      - path: Group001/Sphere001
+        weight: 1
+      - path: Group001/Sphere002
+        weight: 1
+      - path: Group001/Sphere003
+        weight: 1
+      - path: Group001/Sphere004
+        weight: 1
+      - path: Group001/Sphere005
+        weight: 1
+      - path: Group001/Sphere006
+        weight: 1
+      - path: Group001/Sphere007
+        weight: 1
+      - path: Group002
+        weight: 1
+      - path: Group002/Box007
+        weight: 1
+      - path: Group002/Sphere045
+        weight: 1
+      - path: Group002/Sphere046
+        weight: 1
+      - path: Group002/Sphere047
+        weight: 1
+      - path: Group002/Sphere048
+        weight: 1
+      - path: Group002/Sphere049
+        weight: 1
+      - path: Group002/Sphere050
+        weight: 1
+      - path: Group002/Sphere051
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: StraightStair001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

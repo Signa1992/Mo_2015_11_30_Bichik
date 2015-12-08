@@ -5,6 +5,7 @@ Confidential and Proprietary - Qualcomm Connected Experiences, Inc.
 ==============================================================================*/
 
 using UnityEngine;
+using Mo_2015_11_30_Bichik;
 
 namespace Vuforia
 {
@@ -70,6 +71,7 @@ namespace Vuforia
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+            AudioSource[] audioComponents = GetComponentsInChildren<AudioSource>(true);
 
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
@@ -83,6 +85,12 @@ namespace Vuforia
                 component.enabled = true;
             }
 
+            foreach (AudioSource component in audioComponents)
+            {
+                BackgroundMusic.Volume = 0f;
+                component.enabled = true;
+            }
+
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
 
@@ -91,6 +99,7 @@ namespace Vuforia
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+            AudioSource[] audioComponents = GetComponentsInChildren<AudioSource>(true);
 
             // Disable rendering:
             foreach (Renderer component in rendererComponents)
@@ -101,6 +110,12 @@ namespace Vuforia
             // Disable colliders:
             foreach (Collider component in colliderComponents)
             {
+                component.enabled = false;
+            }
+
+            foreach (AudioSource component in audioComponents)
+            {
+                BackgroundMusic.Volume = 1f;
                 component.enabled = false;
             }
 

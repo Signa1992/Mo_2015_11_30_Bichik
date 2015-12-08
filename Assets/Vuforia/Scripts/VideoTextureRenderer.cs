@@ -17,6 +17,5 @@ namespace Vuforia
     /// </summary>
     public class VideoTextureRenderer : VideoTextureRendererAbstractBehaviour
     {
-	
     }
 }

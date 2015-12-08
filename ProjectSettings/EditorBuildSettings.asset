@@ -6,4 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/InternalRectificatorWorkspace.unity
+    path: Assets/Mo_2015_11_30_Bichik/Scenes/Entry.unity
+  - enabled: 1
+    path: Assets/Mo_2015_11_30_Bichik/Scenes/Loading.unity
+  - enabled: 1
+    path: Assets/Mo_2015_11_30_Bichik/Scenes/Application.unity

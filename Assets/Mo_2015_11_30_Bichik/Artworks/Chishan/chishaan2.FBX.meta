@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 35592408629dc9745b3817d68677c1ab
+timeCreated: 1448855882
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chishan
+    100004: ded_bone_head
+    100006: ded_bone_LArm00
+    100008: ded_bone_LArm01
+    100010: ded_bone_LArm02
+    100012: ded_bone_pelvis
+    100014: ded_bone_RArm00
+    100016: ded_bone_RArm01
+    100018: ded_bone_RArm02
+    100020: ded_bone_torso
+    100022: face001
+    100024: IK Chain001
+    100026: IK Chain002
+    100028: Point001
+    400000: //RootNode
+    400002: chishan
+    400004: ded_bone_head
+    400006: ded_bone_LArm00
+    400008: ded_bone_LArm01
+    400010: ded_bone_LArm02
+    400012: ded_bone_pelvis
+    400014: ded_bone_RArm00
+    400016: ded_bone_RArm01
+    400018: ded_bone_RArm02
+    400020: ded_bone_torso
+    400022: face001
+    400024: IK Chain001
+    400026: IK Chain002
+    400028: Point001
+    2300000: ded_bone_head
+    2300002: ded_bone_LArm00
+    2300004: ded_bone_LArm01
+    2300006: ded_bone_LArm02
+    2300008: ded_bone_pelvis
+    2300010: ded_bone_RArm00
+    2300012: ded_bone_RArm01
+    2300014: ded_bone_RArm02
+    2300016: ded_bone_torso
+    3300000: ded_bone_head
+    3300002: ded_bone_LArm00
+    3300004: ded_bone_LArm01
+    3300006: ded_bone_LArm02
+    3300008: ded_bone_pelvis
+    3300010: ded_bone_RArm00
+    3300012: ded_bone_RArm01
+    3300014: ded_bone_RArm02
+    3300016: ded_bone_torso
+    4300000: chishan
+    4300002: ded_bone_pelvis
+    4300004: ded_bone_torso
+    4300006: ded_bone_LArm00
+    4300008: ded_bone_LArm01
+    4300010: ded_bone_LArm02
+    4300012: ded_bone_RArm00
+    4300014: ded_bone_RArm01
+    4300016: ded_bone_RArm02
+    4300018: ded_bone_head
+    4300020: face001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: chishan
+    13700002: face001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chishan
+        weight: 1
+      - path: ded_bone_pelvis
+        weight: 1
+      - path: ded_bone_pelvis/ded_bone_torso
+        weight: 1
+      - path: ded_bone_pelvis/ded_bone_torso/ded_bone_head
+        weight: 1
+      - path: ded_bone_pelvis/ded_bone_torso/ded_bone_LArm00
+        weight: 1
+      - path: ded_bone_pelvis/ded_bone_torso/ded_bone_LArm00/ded_bone_LArm01
+        weight: 1
+      - path: ded_bone_pelvis/ded_bone_torso/ded_bone_LArm00/ded_bone_LArm01/ded_bone_LArm02
+        weight: 1
+      - path: ded_bone_pelvis/ded_bone_torso/ded_bone_RArm00
+        weight: 1
+      - path: ded_bone_pelvis/ded_bone_torso/ded_bone_RArm00/ded_bone_RArm01
+        weight: 1
+      - path: ded_bone_pelvis/ded_bone_torso/ded_bone_RArm00/ded_bone_RArm01/ded_bone_RArm02
+        weight: 1
+      - path: face001
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: Point001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
